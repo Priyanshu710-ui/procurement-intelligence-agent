@@ -1,0 +1,31 @@
+date,supplier,category,item,quantity,unit_price,amount,invoice_id,po_id
+2025-01-05,Global Office Supplies,Office Supplies,A4 Paper Cartons,50,28,1400,INV-1001,PO-2001
+2025-01-08,Global Office Supplies,Office Supplies,Toner Cartridges,10,45,450,INV-1002,PO-2002
+2025-01-12,ACME IT Solutions,IT Hardware,Laptop Dell 5420,15,950,14250,INV-1003,PO-2003
+2025-01-15,ACME IT Solutions,IT Hardware,Wireless Mouse,40,18,720,INV-1004,PO-2004
+2025-01-20,Metro Facilities Co,Facilities,HVAC Maintenance,1,3200,3200,INV-1005,PO-2005
+2025-01-22,Global Office Supplies,Office Supplies,A4 Paper Cartons,50,28,1400,INV-1006,PO-2006
+2025-01-28,BrightPath Marketing,Marketing,Trade Show Booth,1,8500,8500,INV-1007,PO-2007
+2025-02-02,ACME IT Solutions,IT Hardware,Laptop Dell 5420,2,950,1900,INV-1008,PO-2008
+2025-02-05,Metro Facilities Co,Facilities,Cleaning Services,1,1200,1200,INV-1009,PO-2009
+2025-02-09,Global Office Supplies,Office Supplies,Desk Chairs,8,220,1760,INV-1010,PO-2010
+2025-02-14,Northstar Logistics,Logistics,Freight - West Region,1,5400,5400,INV-1011,PO-2011
+2025-02-18,ACME IT Solutions,IT Hardware,Server Rack Unit,1,42000,42000,INV-1012,PO-2012
+2025-02-20,BrightPath Marketing,Marketing,Social Media Campaign,1,4200,4200,INV-1013,PO-2013
+2025-02-25,Global Office Supplies,Office Supplies,Toner Cartridges,10,45,450,INV-1014,PO-2014
+2025-03-01,Metro Facilities Co,Facilities,HVAC Maintenance,1,3200,3200,INV-1015,PO-2015
+2025-03-04,Northstar Logistics,Logistics,Freight - East Region,1,4800,4800,INV-1016,PO-2016
+2025-03-10,ACME IT Solutions,IT Hardware,Wireless Mouse,40,18,720,INV-1017,PO-2017
+2025-03-12,Quantum Consulting Group,Professional Services,Strategy Workshop,1,12500,12500,INV-1018,PO-2018
+2025-03-15,Global Office Supplies,Office Supplies,Desk Chairs,8,220,1760,INV-1019,PO-2019
+2025-03-19,BrightPath Marketing,Marketing,Trade Show Booth,1,8500,8500,INV-1020,PO-2020
+2025-03-22,Metro Facilities Co,Facilities,Cleaning Services,1,1200,1200,INV-1021,PO-2021
+2025-03-27,Northstar Logistics,Logistics,Freight - West Region,1,5400,5400,INV-1022,PO-2022
+2025-04-02,ACME IT Solutions,IT Hardware,Laptop Dell 5420,1,950,950,INV-1023,PO-2023
+2025-04-05,Global Office Supplies,Office Supplies,A4 Paper Cartons,50,28,1400,INV-1024,PO-2024
+2025-04-09,Quantum Consulting Group,Professional Services,Vendor Audit,1,9800,9800,INV-1025,PO-2025
+2025-04-14,Metro Facilities Co,Facilities,Emergency Plumbing Repair,1,15600,15600,INV-1026,PO-2026
+2025-04-18,BrightPath Marketing,Marketing,Social Media Campaign,1,4200,4200,INV-1027,PO-2027
+2025-04-21,Northstar Logistics,Logistics,Freight - East Region,1,4800,4800,INV-1028,PO-2028
+2025-04-25,ACME IT Solutions,IT Hardware,Wireless Mouse,40,18,720,INV-1029,PO-2029
+2025-04-29,Global Office Supplies,Office Supplies,Toner Cartridges,10,45,450,INV-1030,PO-2030
