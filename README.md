@@ -1,28 +1,24 @@
-# ⚡ AI Procurement Intelligence Agent
+# ⚡ Procurement Intelligence Agent
 
 <div align="center">
 
-# 🧠 PROCUREMENT INTELLIGENCE
+# 🧠 PROCUREMENT INTELLIGENCE AGENT
 
 ### **Turn procurement data into decisions, savings, and action.**
 
-**UPLOAD → ANALYZE → DETECT → INVESTIGATE → SAVE**
+Upload procurement data → analyze spending → detect risk → uncover savings → investigate with AI.
 
-An AI-powered procurement intelligence platform that transforms raw purchase history into financial insights, risk signals, savings opportunities, and conversational investigation.
+<p>
+  <a href="https://procurement-intelligence-agent-69zp.vercel.app/"><strong>🚀 Live Demo</strong></a>
+  ·
+  <a href="https://github.com/Priyanshu710-ui/procurement-intelligence-agent"><strong>⭐ GitHub</strong></a>
+</p>
 
-<br />
-
-<a href="https://procurement-intelligence-agent-69zp.vercel.app/">
-<img src="https://img.shields.io/badge/🚀_LIVE_DEMO-OPEN_APP-000000?style=for-the-badge&labelColor=111827" alt="Live Demo" />
-</a>
-<a href="https://github.com/Priyanshu710-ui/procurement-intelligence-agent">
-<img src="https://img.shields.io/badge/⭐_GITHUB-VIEW_REPOSITORY-18181B?style=for-the-badge" alt="GitHub" />
-</a>
-<a href="https://vercel.com/">
-<img src="https://img.shields.io/badge/DEPLOYED-VERCEL-black?style=for-the-badge&logo=vercel" alt="Vercel" />
-</a>
-
-<br /><br />
+![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-AI-orange?style=for-the-badge)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)
 
 **Built by Priyanshu**
 
@@ -30,230 +26,226 @@ An AI-powered procurement intelligence platform that transforms raw purchase his
 
 ---
 
-## 🚀 LIVE DEMO
+## 🚀 Live Demo
 
 <div align="center">
 
-# [⚡ LAUNCH THE PROCUREMENT INTELLIGENCE AGENT](https://procurement-intelligence-agent-69zp.vercel.app/)
+### [⚡ OPEN THE PROCUREMENT INTELLIGENCE AGENT](https://procurement-intelligence-agent-69zp.vercel.app/)
 
-### **Live on Vercel · Ready to investigate procurement data**
+**Live on Vercel** · Upload a CSV and start investigating procurement spend.
 
 </div>
 
-> **Demo:** https://procurement-intelligence-agent-69zp.vercel.app/
->
-> Upload procurement CSV data, uncover hidden patterns, review savings opportunities, and interrogate the dataset through the AI Procurement Agent.
+---
+
+## 🎯 What is this?
+
+Procurement teams sit on top of huge amounts of transactional data, but finding the important signals often means spreadsheets, filters, pivot tables, and repeated manual investigation.
+
+**Procurement Intelligence Agent turns that workflow into an interactive intelligence system.**
+
+The application transforms raw purchasing records into:
+
+- 💰 **Spend intelligence**
+- 🏢 **Supplier intelligence**
+- 🕵️ **Duplicate-purchase signals**
+- 🚨 **Unusual-spending / anomaly signals**
+- 💡 **Savings opportunities**
+- 🤖 **Conversational AI investigation**
+
+> **The goal is simple: move from “What happened?” to “What should we investigate or do next?”**
 
 ---
 
-# 🌌 The Idea
+## ✨ Core Capabilities
 
-Procurement data looks innocent.
+### 📥 1. Upload Procurement Data
 
-Rows of purchase orders. Suppliers. Items. Categories. Amounts.
+Bring in procurement history through CSV and turn a flat file into an analysis-ready dataset.
 
-But hidden inside those rows can be:
+### 📊 2. Spend Intelligence
 
-```text
-💸 Duplicate purchases
-🏢 Supplier concentration
-📈 Spending spikes
-🚨 Unusual transactions
-💰 Recovery opportunities
-🎯 Negotiation targets
-```
+Understand where money is going across suppliers, categories, purchase orders, and time.
 
-Traditional analysis often means opening spreadsheets, building filters, creating pivot tables, and repeating the process every time someone asks a new question.
+Key views include:
 
-**This project turns that workflow into an intelligent investigation.**
-
-> ### **What if procurement data could investigate itself?**
-
----
-
-# 🔥 What It Does
-
-```text
-                         PROCUREMENT DATA
-                                │
-                                ▼
-                    ┌────────────────────┐
-                    │     CSV UPLOAD     │
-                    └──────────┬─────────┘
-                               │
-                               ▼
-                    ┌────────────────────┐
-                    │  ANALYSIS ENGINE   │
-                    └──────────┬─────────┘
-                               │
-             ┌─────────────────┼─────────────────┐
-             ▼                 ▼                 ▼
-        💰 SPEND          🕵️ DUPLICATES      🚨 ANOMALIES
-             │                 │                 │
-             └─────────────────┼─────────────────┘
-                               ▼
-                    ┌────────────────────┐
-                    │   AI INTELLIGENCE  │
-                    └──────────┬─────────┘
-                               │
-                               ▼
-                    ┌────────────────────┐
-                    │  RECOMMENDATIONS   │
-                    └──────────┬─────────┘
-                               │
-                               ▼
-                    ┌────────────────────┐
-                    │ 🤖 PROCUREMENT AI  │
-                    │       AGENT        │
-                    └────────────────────┘
-```
-
-### **Raw data → intelligence → action.**
-
----
-
-# 💰 Spend Intelligence
-
-See where procurement money is actually going.
-
-The platform analyzes:
-
-- Total procurement spend
-- Purchase order volume
-- Supplier spending
-- Category spending
-- Monthly spending trends
+- Total spend
+- Purchase-order volume
+- Supplier spend
+- Category spend
+- Monthly spend trends
+- Average order value
 - Supplier concentration
-- Average order values
 
-No spreadsheet archaeology required.
+### 🕵️ 3. Duplicate Purchase Detection
 
----
+Identify repeated purchasing patterns using transaction attributes such as supplier, item, and amount.
 
-# 🕵️ Duplicate Purchase Detection
+These signals help teams investigate potential duplicate payments or repeated purchases.
 
-The system searches for repeated combinations of:
+### 🚨 4. Anomaly Investigation
 
-```text
-Supplier + Item + Amount
-```
+Surface transactions that stand out within the analyzed dataset so procurement teams can focus attention on unusually large or otherwise suspicious activity.
 
-Potential duplicates are surfaced automatically for investigation.
+> **A signal is not a verdict. It is a starting point for investigation.**
 
-### Example
+### 🏢 5. Supplier Intelligence
 
-```text
-Supplier:    Global Office Supplies
-Item:        A4 Paper Cartons
-Amount:      $1,400
-Occurrences: 3
-```
+Compare supplier relationships and identify where negotiation attention, consolidation, or deeper review may be valuable.
 
-The result isn't simply a flag — it becomes an opportunity to investigate potential recovery.
+### 💡 6. AI Recommendations
 
----
+Turn analytical findings into prioritised procurement opportunities, explanations, and potential savings areas.
 
-# 🚨 Unusual Spending Detection
+### 🤖 7. Procurement AI Agent
 
-Large does not automatically mean wrong.
-
-Instead, the system looks for transactions that stand out within their category and helps procurement teams focus their attention where it matters.
-
-Useful for investigating:
-
-- Pricing outliers
-- Unexpectedly expensive purchases
-- Unusual category spending
-- Potential procurement mistakes
-
-> **The goal is not to accuse. The goal is to investigate intelligently.**
-
----
-
-# 🏢 Supplier Intelligence
-
-Understand which supplier relationships matter most.
-
-The dashboard reveals:
-
-- Highest-spend suppliers
-- Supplier concentration
-- Order counts
-- Average order values
-- Relative supplier importance
-
-Which supplier deserves negotiation attention?
-
-Where are you overly dependent?
-
-Where could consolidation create leverage?
-
-**The data gives you the starting point.**
-
----
-
-# 🤖 AI Procurement Agent
-
-This is the part that turns a dashboard into an investigation partner.
-
-Ask questions naturally:
+Ask natural-language questions about the analyzed data:
 
 ```text
 Where are we overspending?
 
-Which supplier should we negotiate with?
+Which suppliers should we negotiate with?
 
-Find suspicious or duplicate purchases.
+Show me potential duplicate purchases.
 
-How much money could we potentially save?
+How much could we potentially recover?
 
-Which supplier has the highest concentration?
+Which category has the biggest opportunity?
 
-What are the biggest procurement risks?
+What procurement risks should I investigate first?
 ```
 
-The agent uses the analyzed procurement intelligence to answer questions conversationally.
-
-### **Don't just look at the numbers. Talk to them.**
+The dashboard gives the overview. **The agent lets you investigate it.**
 
 ---
 
-# ⚡ AI-Powered Recommendations
+## 🧠 How It Works
 
-After analysis, the platform generates actionable procurement recommendations.
+```text
+┌──────────────────────┐
+│  PROCUREMENT CSV     │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Validate + Normalize │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│  Analysis Engine     │
+├──────────────────────┤
+│ Spend                │
+│ Suppliers            │
+│ Categories           │
+│ Trends               │
+│ Duplicates           │
+│ Anomalies            │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ AI Intelligence      │
+│ Recommendations      │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│ Procurement AI Agent │
+└──────────────────────┘
+```
 
-Recommendations can surface:
-
-- Priority
-- Explanation
-- Estimated savings
-- Procurement opportunities
-- Areas requiring investigation
-
-The key question:
-
-> **“So what should we do about it?”**
+### **UPLOAD → ANALYZE → DETECT → EXPLAIN → INVESTIGATE → ACT**
 
 ---
 
-# 🎯 Intelligence Pipeline
+## 🧩 Technical Architecture
 
-| Stage | Intelligence Flow |
+```text
+                         USER
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │  Next.js UI │
+                    └──────┬──────┘
+                           │
+                  ┌────────┴────────┐
+                  ▼                 ▼
+          ┌──────────────┐   ┌──────────────┐
+          │ /api/analyze │   │  /api/agent  │
+          └──────┬───────┘   └──────┬───────┘
+                 │                  │
+                 └────────┬─────────┘
+                          ▼
+                 ┌─────────────────┐
+                 │ Analysis / AI   │
+                 │ Intelligence    │
+                 └────────┬────────┘
+                          ▼
+                 ┌─────────────────┐
+                 │ Groq + Qwen     │
+                 └─────────────────┘
+```
+
+### Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js, React, TypeScript |
+| Styling | Tailwind CSS |
+| Charts | Recharts |
+| AI | Groq + Qwen 3.8 27B |
+| Data Processing | CSV parsing, normalization, aggregation, detection |
+| Deployment | Vercel |
+
+---
+
+## 📈 Intelligence Pipeline
+
+| Stage | What happens |
 |---|---|
 | **01** | 📥 Upload procurement CSV |
-| **02** | ✅ Validate required fields |
-| **03** | 🧹 Normalize transaction data |
-| **04** | 📊 Analyze spend and purchasing patterns |
-| **05** | 🔎 Detect duplicates and unusual transactions |
-| **06** | 🧠 Generate AI intelligence |
-| **07** | 💡 Produce recommendations |
-| **08** | 💬 Investigate with the AI Agent |
+| **02** | ✅ Validate required data |
+| **03** | 🧹 Normalize transaction records |
+| **04** | 📊 Calculate spend and supplier metrics |
+| **05** | 🔎 Detect duplicate and unusual transactions |
+| **06** | 🧠 Generate AI-backed intelligence |
+| **07** | 💡 Prioritize recommendations |
+| **08** | 💬 Investigate with the Procurement Agent |
 
 ---
 
-# 📊 Procurement Command Center
+## 🔥 Example Dataset Intelligence
 
-The interface combines an executive dashboard with AI investigation tools.
+The included sample dataset demonstrates the type of signals the application can surface:
+
+| Metric | Example |
+|---|---:|
+| 💰 Total Spend | **$162,830** |
+| 🧾 Purchase Orders | **30** |
+| 🏢 Suppliers | **6** |
+| 🚩 Potential Duplicate Flags | **10** |
+| 🏆 Top Supplier | **ACME IT Solutions** |
+| 💸 Potential Duplicate Recovery | **$34,200** |
+
+### Example signals
+
+```text
+Global Office Supplies  → A4 Paper Cartons
+Global Office Supplies  → Toner Cartridges
+ACME IT Solutions       → Wireless Mouse
+Metro Facilities Co     → HVAC Maintenance
+BrightPath Marketing    → Trade Show Booth
+Northstar Logistics     → Freight - West Region
+```
+
+These figures are **example results from the included sample dataset**, not universal benchmarks.
+
+---
+
+## 🖥️ Product Experience
+
+The interface is designed around a simple investigation loop:
 
 ```text
 ┌──────────────────────────────────────────────┐
@@ -265,112 +257,19 @@ The interface combines an executive dashboard with AI investigation tools.
 │                                              │
 │               SPEND OVER TIME               │
 │                                              │
-│        ╭──────╮                              │
-│   ╭────╯      ╰──────╮                       │
-│───╯                   ╰────                  │
-│                                              │
 ├──────────────────────┬───────────────────────┤
-│   TOP SUPPLIERS      │   CATEGORIES          │
-│   ███████████        │   █████████            │
-│   █████████          │   ███████              │
-│   ██████             │   █████                │
+│   TOP SUPPLIERS       │   CATEGORIES         │
+│   ███████████         │   █████████           │
+│   █████████           │   ███████             │
+│   ██████              │   █████               │
 └──────────────────────┴───────────────────────┘
 ```
 
-The dashboard also surfaces duplicate and anomaly investigations so users can move from **overview → evidence → action**.
+The experience moves from **overview → evidence → recommendation → conversation**.
 
 ---
 
-# 🧠 Example Intelligence
-
-The included sample dataset contains:
-
-| Metric | Result |
-|---|---:|
-| 💰 **Total Spend** | **$162,830** |
-| 🧾 **Purchase Orders** | **30** |
-| 🏢 **Suppliers** | **6** |
-| 🚩 **Potential Duplicate Flags** | **10** |
-| 🏆 **Top Supplier** | **ACME IT Solutions** |
-| 💸 **Potential Duplicate Recovery** | **$34,200** |
-
-### Sample duplicate signals include
-
-- Global Office Supplies — A4 Paper Cartons
-- Global Office Supplies — Toner Cartridges
-- ACME IT Solutions — Wireless Mouse
-- Metro Facilities Co — HVAC Maintenance
-- BrightPath Marketing — Trade Show Booth
-- Metro Facilities Co — Cleaning Services
-- Global Office Supplies — Desk Chairs
-- Northstar Logistics — Freight - West Region
-- BrightPath Marketing — Social Media Campaign
-- Northstar Logistics — Freight - East Region
-
----
-
-# 🧩 Technology Stack
-
-### Frontend
-
-- **Next.js**
-- **React**
-- **TypeScript**
-- **Tailwind CSS**
-- **Recharts**
-
-### AI Layer
-
-- **Groq**
-- **Qwen 3.8 27B**
-
-### Data Intelligence
-
-- CSV parsing
-- Data normalization
-- Supplier aggregation
-- Category analysis
-- Monthly trend analysis
-- Duplicate detection
-- Statistical anomaly detection
-
-### Deployment
-
-- **Vercel**
-
----
-
-# 🏗️ Architecture
-
-```text
-                         USER
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │  Next.js UI │
-                    └──────┬──────┘
-                           │
-              ┌────────────┴────────────┐
-              ▼                         ▼
-       ┌──────────────┐          ┌──────────────┐
-       │  ANALYZE API │          │  AGENT API   │
-       └──────┬───────┘          └──────┬───────┘
-              │                         │
-              └────────────┬────────────┘
-                           ▼
-                   ┌───────────────┐
-                   │ Analysis Engine│
-                   └───────┬───────┘
-                           │
-                           ▼
-                    ┌─────────────┐
-                    │  Groq/Qwen  │
-                    └─────────────┘
-```
-
----
-
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 procurement-intelligence-agent/
@@ -406,22 +305,22 @@ procurement-intelligence-agent/
 
 ---
 
-# ⚙️ Run Locally
+## ⚙️ Run Locally
 
-### 1. Clone
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Priyanshu710-ui/procurement-intelligence-agent.git
 cd procurement-intelligence-agent
 ```
 
-### 2. Install
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure environment
+### 3. Add your environment variable
 
 Create `.env.local`:
 
@@ -429,141 +328,120 @@ Create `.env.local`:
 GROQ_API_KEY=your_groq_api_key
 ```
 
-> Never commit `.env.local` or expose your API key publicly.
-
-### 4. Start
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Then open:
+
+```text
+http://localhost:3000
+```
+
+> 🔐 **Never commit `.env.local` or expose your API key in client-side code.**
 
 ---
 
-# 🧪 Try It
-
-### Fastest path
+## 🧪 Quick Demo Flow
 
 ```text
-🚀 Launch Live Demo
+🚀 Open the Live Demo
         ↓
-📄 Load Sample Data
+📄 Load sample procurement data
         ↓
-🧠 Analyze
+🧠 Run analysis
         ↓
-💡 Review Recommendations
+📊 Explore spend + supplier insights
         ↓
-📊 Explore Dashboard
+🚩 Review duplicate / anomaly signals
+        ↓
+💡 Read recommendations
         ↓
 🤖 Ask the Procurement Agent
 ```
 
-### Questions to try
+Try asking:
 
 ```text
 Where are we overspending?
 ```
 
 ```text
-How much money could we potentially recover from duplicates?
+Which supplier should we negotiate with first?
 ```
 
 ```text
-Which supplier should we negotiate with?
+How much potential duplicate recovery did we identify?
 ```
 
 ---
 
-# 🛡️ Data Handling
+## 🛡️ Data & Security Notes
 
-Procurement data is analyzed in-memory per request.
+The application is designed around temporary analysis of uploaded procurement data rather than persistent storage of the uploaded records.
 
-The application is designed around temporary analysis rather than persistent storage of uploaded procurement records.
+For local development and deployment:
 
-Never expose `GROQ_API_KEY` in client-side code, screenshots, commits, or public documentation.
-
----
-
-# 🌌 The Vision
-
-This is more than a dashboard.
-
-It is a prototype for an intelligent procurement analyst.
-
-Imagine asking:
-
-```text
-“Why did our spending increase this quarter?”
-```
-
-and getting an explanation grounded in the analyzed procurement data.
-
-Then:
-
-```text
-“How much could we save?”
-```
-
-Then:
-
-```text
-“Which supplier should we talk to first?”
-```
-
-The long-term direction:
-
-> ### **From dashboards that show what happened to AI systems that help decide what to do next.**
+- Keep `GROQ_API_KEY` server-side.
+- Do not commit secrets.
+- Treat detected anomalies and duplicate matches as **investigation signals**, not final accounting conclusions.
+- Validate results against source systems before taking financial action.
 
 ---
 
-# 🚀 Future Possibilities
+## 🌱 What Could Come Next?
 
-- Real-time procurement monitoring
+The current architecture leaves room for a much larger procurement intelligence platform:
+
+- Real-time spend monitoring
 - Supplier negotiation intelligence
-- Contract intelligence
+- Contract and invoice intelligence
 - Purchase-order risk scoring
-- Automated savings tracking
+- Savings tracking over time
 - Procurement forecasting
-- ERP integration
-- Database-backed analytics
-- Approval workflow intelligence
-- Continuous spend monitoring
+- ERP / accounting integrations
+- Persistent database-backed analytics
+- Approval and workflow automation
 - Multi-agent procurement workflows
 
----
+The direction is clear:
 
-# 🏆 Why It Stands Out
-
-| | Capability | Impact |
-|---|---|---|
-| ⚡ | **Automated** | Reduces repetitive spreadsheet investigation |
-| 🧠 | **AI-Powered** | Converts analysis into understandable intelligence |
-| 🔎 | **Investigative** | Surfaces patterns worth human attention |
-| 💬 | **Conversational** | Lets users investigate with natural language |
-| 📊 | **Visual** | Makes complex procurement data easy to explore |
-| 💰 | **Value-Focused** | Connects findings to potential savings |
-| 🚀 | **Production Deployed** | Available as a live Vercel application |
+> **From dashboards that describe procurement to AI systems that help procurement teams decide what to do next.**
 
 ---
 
-# 👨‍💻 Built By
+## 🏆 Why This Project Matters
 
-## Priyanshu
+| Capability | Why it matters |
+|---|---|
+| ⚡ Automated analysis | Reduces repetitive spreadsheet investigation |
+| 🧠 AI reasoning layer | Makes complex findings easier to interrogate |
+| 🔎 Investigative workflow | Focuses attention on unusual or high-value signals |
+| 💬 Conversational UX | Lets users ask questions without rebuilding reports |
+| 📊 Visual analytics | Makes spend patterns easier to understand |
+| 💰 Savings-oriented | Connects findings to potential financial opportunities |
+| 🚀 Deployed product | Available as a live web application |
+
+---
+
+## 👨‍💻 Built By
+
+### Priyanshu
 
 **AI / Data / Full-Stack Developer**
 
-Building intelligent systems where:
+Building practical systems at the intersection of:
 
 ```text
-             DATA
-               +
-               AI
-               +
-          ENGINEERING
-               │
-               ▼
-      REAL-WORLD INTELLIGENCE
+DATA
+  +
+AI
+  +
+ENGINEERING
+  ↓
+REAL-WORLD INTELLIGENCE
 ```
 
 ---
@@ -573,12 +451,10 @@ Building intelligent systems where:
 # ⚡ PROCUREMENT DATA IN.
 # 💰 INTELLIGENCE OUT.
 
-### **Built by Priyanshu to find the money hiding in the ledger.**
+### **Built by Priyanshu to find the signals hiding in the ledger.**
 
-<br />
+[🚀 OPEN LIVE DEMO](https://procurement-intelligence-agent-69zp.vercel.app/)
 
-## 🚀 [OPEN LIVE DEMO](https://procurement-intelligence-agent-69zp.vercel.app/)
-
-### ⭐ [STAR THE REPOSITORY](https://github.com/Priyanshu710-ui/procurement-intelligence-agent)
+⭐ **Star the repository if you like the project.**
 
 </div>
